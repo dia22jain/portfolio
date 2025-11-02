@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disha Jain | Portfolio</title>
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Add meta description for SEO -->
+    <meta name="description" content="Disha Jain - Computer Science Student at VNIT Nagpur | Portfolio showcasing projects in AI, ML, and Web Development">
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+          rel="stylesheet"
+        />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  </head>
+
+  <body>
+    <header>
+      <!-- ====== NAVBAR ====== -->
+      <nav class="navbar">
+        <div class="logo">D<span>J</span></div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+		  <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#awards">Awards and POR</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <i class="fas fa-sun" id="theme-icon"></i>
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h3>Hello, I'm</h3>
+          <h1>Disha Jain</h1>
+          <p class="subtitle">Final Year CSE Student at VNIT Nagpur</p>
+          <p class="traits">Innovative • Analytical • Dedicated</p>
+          <div class="hero-buttons">
+            <a href="#about"><button class="btn primary-btn">About Me</button></a>
+            <a href="#projects"><button class="btn secondary-btn">View Projects</button></a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>8.57</h3>
+            <p>CGPA</p>
+          </div>
+          <div class="stat">
+            <h3>4+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="stat">
+            <h3>1</h3>
+            <p>Internships</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <img src="profile.png" alt="Disha Jain" />
+        </div>
+        <div class="floating-elements">
+          <div class="floating-element element-1">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="floating-element element-2">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="floating-element element-3">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== ABOUT SECTION ====== -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a passionate Computer Science student with a strong foundation in C/C++, Python, and ML technologies. I love solving real-world problems through efficient algorithms and creative software design.
+          </p>
+          <p>
+            My interests lie in AI, Data Science, and Web Development, where I explore how technology can make meaningful impact.
+          </p>
+          <p>
+            I'm known for being a collaborative team player, a fast learner, and a creative problem solver. Currently, I'm exploring advanced ML techniques while developing web applications that blend data with design.
+          </p>
+          <p>
+            I believe technology is most powerful when it simplifies life — and I'm driven to build solutions that do just that.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="code.svg" alt="Coding Illustration" />
+        </div>
+      </div>
+    </section>
+    <!-- ====== SKILLS SECTION ====== -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        
+        <div class="skill-box">
+          <i class="fas fa-terminal"></i>
+          <h3>Programming Languages</h3>
+          <p>C, C++, Python, SQL, Java, JavaScript</p>
+        </div>
+
+        <div class="skill-box">
+          <i class="fas fa-cubes"></i>
+          <h3>Frameworks & Libraries</h3>
+          <p>PyTorch, TensorFlow, Scikit-learn, LangChain, LlamaIndex, Flask</p>
+        </div>
+
+        <div class="skill-box">
+          <i class="fas fa-tools"></i>
+          <h3>Tools & Platforms</h3>
+          <p>Git / GitHub, Linux, Docker, VS Code, MySQL</p>
+        </div>
+
+        <div class="skill-box">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Concepts & Domains</h3>
+          <p>Data Structures & Algorithms, OOP, OS, Computer Networks, ML / DL, Web Development, API Integration</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== EXPERIENCE SECTION ====== -->
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <div class="exp-grid">
+
+        <div class="exp-card">
+          <h3>Summer Analyst</h3>
+          <p class="company">Citigroup Inc | Jun 2025 – July 2025</p>
+          <ul>
+            <li>Automated configuration setup for a data reconciliation system to enhance traceability and ensure consistent monitoring of critical data elements.</li>
+            <li>Enabled detection of breaks in end-to-end data lineage, improving reliability and audit readiness of enterprise data pipelines</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== PROJECTS SECTION ====== -->
+    <section id="projects" class="projects">
+      <h2>Personal Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="deep.svg" alt="DeepFake Detection" />
+          <div class="project-info">
+            <h3>DeepFake Detection</h3>
+            <p>
+              Developed a deepfake detection system utilizing ResNeXt50 
+              CNN for spatial feature extraction and LSTM for temporal analysis.
+            </p>
+            <a href="https://github.com/dia22jain/deepfakeNFT" class="code-btn"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="step.svg" alt="StepSync" />
+          <div class="project-info">
+            <h3>Step Counter</h3>
+            <p>
+              Developed the B-tree based step tracking application, incorporating file handling, 
+              enabling users to establish goals, track daily steps, form groups, 
+              and earn rewards, fostering engagement and collaboration in fitness activities.
+            </p>
+            <a href="https://github.com/dia22jain/StepSync-B-Tree" class="code-btn"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="chatbot.svg" alt="PastaGPT(LLM Chatbot)" />
+          <div class="project-info">
+            <h3>PastaGPT(LLM Chatbot)</h3>
+            <p>
+              Developed the advanced Italian cuisine chatbot project, incorporating the GPT-3.5 architecture, \
+              Llama Module, and LangChain for personalized interactions and real-time culinary insights.
+            </p>
+            <a href="https://github.com/dia22jain/llm-project" class="code-btn"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="heap.svg" alt="Heap Management" />
+          <div class="project-info">
+            <h3>Heap Management</h3>
+            <p>
+              Developed an application featuring a custom memory allocation system using the First Fit 
+              algorithm, efficiently managing variable-sized memory blocks through linked lists 
+              and malloc/free functions.
+            </p>
+            <a href="https://github.com/dia22jain/HeapManagement" class="code-btn"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EDUCATION SECTION ====== -->
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>Visvesvaraya National Institute of Technology, Nagpur</h3>
+          <p>B.Tech in Computer Science and Engineering (2022–2025)</p>
+          <p><strong>CGPA:</strong> 8.57/10</p>
+        </div>
+
+        <div class="edu-card">
+          <h3>Sri Sathya Sai Vidya Vihar</h3>
+          <p>CLASS XII [CBSE] (2020–2021)</p>
+          <p><strong>Percentage:</strong> 94.2%</p>
+        </div>
+
+        <div class="edu-card">
+          <h3>Podar International School</h3>
+          <p>CLASS X [CBSE] (2018–2019)</p>
+          <p><strong>Percentage:</strong> 97.4%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== AWARDS SECTION ====== -->
+    <section id="awards" class="awards">
+      <h2>Awards & Position of Responsibility</h2>
+      <ul>
+        <li>Head of Operations in S.H.E.L.L-The Hackers' Club of VNIT</li>
+        <li>Conducted Workshop of S.H.E.L.L- The Hacker's Club of VNIT on Steganography</li>
+        <li>Manager in the ACM Core Committee(Association for Computer Machinery)</li>
+        <li>Academic Affairs Secretary of CSE Department Council, VNIT Nagpur</li>
+        <li>Joint Entrance Examination 2022: Secured All India Rank 7427 in JEE MAINS</li>
+      </ul>
+    </section>
+
+    <!-- ====== FLOATING SOCIAL MEDIA BUTTON ====== -->
+    <div class="social-fab">
+      <div class="fab-toggle">
+        <i class="fas fa-share-alt"></i>
+      </div>
+      <div class="fab-menu">
+        <a href="https://www.linkedin.com/in/disha-jain-062963250" class="fab-item" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/dia22jain" class="fab-item" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:dishajain2206@gmail.com" class="fab-item" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="Disha_Jain_Resume.pdf" class="fab-item resume-download" title="Download Resume" download="Disha_Jain_Resume.pdf">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+      </div>
+    </div>
+    
+
+    <footer>
+      <div id="contact" class="footer-content">
+        <p>© 2025 Disha Jain. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/disha-jain-062963250" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/dia22jain" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:dishajain2206@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="resume.pdf" class="resume-download" title="Download Resume" download="Disha_Jain_Resume.pdf">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
